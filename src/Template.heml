@@ -1,0 +1,191 @@
+<heml>
+    <head>
+        <subject>Template email</subject>
+        <!--<preview>
+          Here you can add an email preview for certain clients like Gmail.
+        </preview>-->
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+            body {
+                background-color: #f3f3f3;
+                padding: 2% 0 2% 1%;
+            }
+
+            container {
+                text-align: center;
+                background-color: white;
+            }
+
+            .default-row {
+                margin: 40px 3%;
+            }
+
+            h1 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 27px;
+                color: #2a2a2a;
+            }
+
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 22px;
+                font-weight: 350;
+            }
+
+            .regular-text {
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+            }
+
+            .mail-link {
+                color: #747474;
+            }
+
+            .small-text {
+                font-family: 'Roboto', sans-serif;
+                font-size: 13px;
+                line-height: 20px;
+                color: #747474;
+            }
+
+            .regular-link {
+                font-family: 'Roboto', sans-serif;
+                font-size: 17px;
+                line-height: 20px;
+                text-decoration-line: underline;
+                color: #4d24ff;
+            }
+
+            button {
+                background: #191921;
+                border-radius: 10px;
+                font-family: 'Roboto', sans-serif;
+                color: #FFFFFF;
+                padding: 14px 45px;
+            }
+
+            #footer {
+                width: 170px;
+                margin: 0 auto 24px;
+            }
+
+            .footer-icon {
+                width: 10px;
+                display: inline;
+                padding: 0 1px;
+            }
+
+            @media only screen and (max-width: 615px) and (max-device-width: 615px) {
+                #footer {
+                    width: 100% !important;
+                    padding-left: 9% !important;
+                }
+            }
+
+
+            @media only screen and (max-width: 415px) and (max-device-width: 415px) {
+                #footer {
+                    width: 100% !important;
+                    padding-left: 8% !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <container>
+        <!--Rows are useful to separate your columns into sections-->
+        <row>
+            <column>
+                <img src="https://picsum.photos/300/200/?blur=5" width="100%"/>
+            </column>
+        </row>
+
+        <row class="default-row">
+            <column>
+                <h1>¡Hey, Welcome to this email template!</h1>
+                <p class="regular-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae blanditiis
+                    consequuntur eveniet illum iste itaque iure maxime minus, mollitia officia optio sed sunt veniam
+                    veritatis voluptate voluptatum? Itaque, sit!</p>
+            </column>
+        </row>
+
+        <row class="default-row">
+            <column>
+                <button href="https://github.com/zejiran">Click for know more of my projects</button>
+            </column>
+        </row>
+
+        <row class="default-row">
+            <column style="text-align: center">
+                <h2 style="margin: 8% 12.5%">This is a selected template for kittens</h2>
+                <p class="small-text" style="margin: 12% 12.5%">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.</p>
+                <a class="regular-link" href="https://www.linkedin.com/in/juanszalegria/">Connect with me</a>
+            </column>
+            <column style="margin-top: 47px;">
+                <img src="https://picsum.photos/200/210/?blur=5" width="100%"/>
+            </column>
+        </row>
+
+        <row class="default-row">
+            <column>
+                <p class="small-text" style="margin: 25px 25% 0;">
+                    <img class="footer-icon"
+                         src="https://github.com/zejiran/email-template/blob/main/assets/icons/code.png?raw=true">
+                    with
+                    <img class="footer-icon"
+                         src="https://github.com/zejiran/email-template/blob/main/assets/icons/heart.png?raw=true">
+                    made in Colombia
+                </p>
+                <p class="small-text">© zejiran 2021. All rights reserved.</p>
+                <p class="small-text">If you have any questions, write me on
+                    <a class="mail-link" href="https://t.me/juanszalegria">Telegram</a>
+                </p>
+            </column>
+        </row>
+
+        <row id="footer">
+            <!--TODO: add social media links-->
+            <column large="5" small="2">
+                <p>
+                    <a href=""><img heml-ignore
+                                    src="https://github.com/zejiran/email-template/blob/main/assets/icons/linkedin.png?raw=true"
+                                    width="30px"></a>
+                </p>
+            </column>
+            <column large="5" small="2">
+                <p>
+                    <a href=""><img heml-ignore
+                                    src="https://github.com/zejiran/email-template/blob/main/assets/icons/facebook.png?raw=true"
+                                    width="30px"></a>
+                </p>
+            </column>
+            <column large="5" small="2">
+                <p>
+                    <a href=""><img heml-ignore
+                                    src="https://github.com/zejiran/email-template/blob/main/assets/icons/youtube.png?raw=true"
+                                    width="30px"></a>
+                </p>
+            </column>
+            <column large="5" small="2">
+                <p>
+                    <a href=""><img heml-ignore
+                                    src="https://github.com/zejiran/email-template/blob/main/assets/icons/twitter.png?raw=true"
+                                    width="30px"></a>
+                </p>
+            </column>
+            <column large="5" small="2">
+                <p>
+                    <a href=""><img heml-ignore
+                                    src="https://github.com/zejiran/email-template/blob/main/assets/icons/instagram.png?raw=true"
+                                    width="30px"></a>
+                </p>
+            </column>
+        </row>
+
+        <div style="padding-top: 50px"></div>
+    </container>
+    </body>
+</heml>
