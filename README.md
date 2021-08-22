@@ -5,7 +5,7 @@ This is the starting point to start creating your own emails.
 
 This template was made using [HEML](https://heml.io/), an XML-based markup language designed for building emails.
 
-![Example Mail](./assets/images/example-email.png)
+![Example Mail](https://github.com/zejiran/email-template/blob/main/assets/images/example-mail.png?raw=true)
 
 ## Usage
 
