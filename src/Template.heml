@@ -1,9 +1,17 @@
 <heml>
     <head>
         <subject>Template email</subject>
-        <!--<preview>
+
+        <!-- <preview>
           Here you can add an email preview for certain clients like Gmail.
-        </preview>-->
+        </preview> -->
+
+        <!-- TODO: Add the following to the exported html file for preventing zero height
+        <style type="text/css">
+          html {
+            min-height: 600px;
+          }
+        ... -->
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
