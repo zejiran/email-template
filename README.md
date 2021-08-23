@@ -1,9 +1,9 @@
 # Email Template
-This is the starting point to start creating your own emails.
+This is the starting point for creating your own emails.
 
 ## Overview
 
-This template was made using [HEML](https://heml.io/), an XML-based markup language designed for building emails.
+Here you can find an email template made with [HEML](https://heml.io/), an XML-based markup language designed for building emails.
 
 ![Example Mail](https://github.com/zejiran/email-template/blob/main/assets/images/example-mail.png?raw=true)
 
