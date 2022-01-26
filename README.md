@@ -11,7 +11,7 @@ Here you can find an email template made with [HEML](https://heml.io/), an XML-b
 
 1. Install heml package by using `npm install heml -g`.
 2. Create your HEML email in src folder. For example: `email.heml`.
-3. For develop, run `heml develop src/email.helm --open`.
+3. For develop, run `heml develop src/email.heml --open`.
 4. Once you're ready use `heml build src/email.heml -o dist/email.html`.
 
 ## License
