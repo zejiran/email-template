@@ -92,7 +92,6 @@
                 }
             }
 
-
             @media only screen and (max-width: 415px) and (max-device-width: 415px) {
                 #footer {
                     width: 100% !important;
